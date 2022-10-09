@@ -37,7 +37,7 @@ def inorder(root) -> None:
     # traverse current node
     print(root.data, end=' ')
     # traverse right subtree
-    inorder(root.right_child)
+#     inorder(root.right_child)
 
 
 def preorder(root) -> None:
